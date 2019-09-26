@@ -1,0 +1,53 @@
+/* CSS Document */
+
+/*
+:link
+:visited
+:hover
+:active
+*/
+
+A.enlace{
+	background-color: transparent;
+}
+A.enlace:link {
+	color: green;
+	text-decoration: none;
+}
+A.enlace:visited {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+A.enlace:hover {
+	color: red;
+	text-decoration: underline;
+}
+A.enlace:active {
+	color: darkorange;
+	text-decoration: underline;
+}
+
+A.boton{
+	padding: 15px;
+	width: 200px;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 15px;
+	font-family: Arial;
+	text-decoration: none;
+}
+A.boton:link{
+	background-color: green;
+}
+A.boton:visited{
+	background-color: cornflowerblue;
+}
+A.boton:hover{
+	background-color: red;
+}
+A.boton:active{
+	background-color: darkorange;
+}
+
